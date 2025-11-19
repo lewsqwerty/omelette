@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omlet Dünyası | Əsas Səhifə</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Omlet Dünyası</a>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul id="navMenu">
+                <li><a href="#hero">Ana Səhifə</a></li>
+                <li><a href="#gallery">Qalereya</a></li>
+                <li><a href="#features">Xüsusiyyətlər</a></li>
+                <li><a href="#recipes">Reseptlər</a></li>
+            </ul>
+        </div>
+        <div class="menu-overlay" onclick="toggleMenu()"></div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="animate-fade-down">Mükəmməl Səhər Yeməyi</h1>
+            <p class="animate-fade-up">Dünyanın ən ləzzətli və asan omletlərini kəşf edin.</p>
+            <a href="#recipes" class="btn btn-primary animate-fade-up">Reseptlərə Bax</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <h2>İlham Verən Ləzzətlər</h2>
+                <div class="gallery-grid">
+                    <img src="https://sixhungryfeet.com/wp-content/uploads/2020/10/spanish-omelette-7.jpg"
+                        alt="İspan omleti">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/2/2020/10/Healthy-Vegetable-Omelette-e8d6b9c.jpg?resize=1366,1242"
+                        alt="Tərəvəzli omlet">
+                    <img src="https://www.easyveggieideas.com/images/uploads/recipe-uploads/Super_green_omelette_RESIZED.jpg"
+                        alt="Göyərtili omlet">
+                    <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipe%20images%20and%20files/retail/desktop%20(600x600)/2025/april/2025_retail_classic-cheese-omelet_600x600.webp?ext=.webp"
+                        alt="Pendirli omlet">
+                    <img src="https://www.olivetomato.com/wp-content/uploads/2016/02/SAM4952-1.jpg"
+                        alt="Qatlamalı omlet">
+                    <img src="https://realfood.tesco.com/media/images/1400x919-BrownButterMushroomOmlette-3af4fe6b-7700-4563-acb7-6df04c88e72b-0-1400x919.jpg"
+                        alt="Göbələkli omlet">
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2>Niyə Omlet?</h2>
+                <div class="features-grid">
+                    <div class="card">
+                        <h3>Sürətli və Asan</h3>
+                        <p>Cəmi 5 dəqiqə ərzində isti və doyurucu bir səhər yeməyi hazırlaya bilərsiniz.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Çox Yönlü</h3>
+                        <p>İstədiyiniz tərəvəz, pendir və ya ət əlavələri ilə öz ləzzətinizi yaradın.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Sağlam Qida</h3>
+                        <p>Yüksək protein tərkibi ilə sizi gün ərzində tox və enerjili saxlayır.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipes" id="recipes">
+            <div class="container">
+                <h2>Ən Məşhur Reseptlər</h2>
+                <div class="recipes-grid">
+
+                    <div class="recipe-item">
+                        <img src="https://spanishsabores.com/wp-content/uploads/2023/07/Tortilla-de-Patatas-Featured.jpg"
+                            alt="İspan Omleti">
+                        <div class="recipe-content">
+                            <h3>Klassik İspan Omleti</h3>
+                            <p>Kartof və soğanla zəngin, ispan mətbəxinin əvəzsiz ləzzəti. Doyurucu və ləzzətlidir.</p>
+                            <a href="isp-omleti.html" class="btn btn-secondary">Reseptə Bax</a>
+                        </div>
+                    </div>
+
+                    <div class="recipe-item">
+                        <img src="https://www.tasteofhome.com/wp-content/uploads/2017/09/French-Omelet_EXPS_HCK19_25837_C06_22_3b.jpg"
+                            alt="Fransız Omleti">
+                        <div class="recipe-content">
+                            <h3>Zərif Fransız Omleti</h3>
+                            <p>Kərə yağı ilə hazırlanan, yumşaq və zərif teksturalı bu omlet əsl səhər yeməyi
+                                klassikasıdır.</p>
+                            <a href="fransiz-omleti.html" class="btn btn-secondary">Reseptə Bax</a>
+                        </div>
+                    </div>
+
+                    <div class="recipe-item">
+                        <img src="https://chewonthis.blog/wp-content/uploads/2023/05/Denver-Omelet-1-500x500.jpg"
+                            alt="Denver Omleti">
+                        <div class="recipe-content">
+                            <h3>Denver Omleti</h3>
+                            <p>Vетчина, yaşıl bibər və soğan ilə rəngarəng və proteinlə zəngin bir seçim.</p>
+                            <a href="denver-omleti.html" class="btn btn-secondary">Reseptə Bax</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Omlet Dünyası. Bütün hüquqlar qorunur.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
